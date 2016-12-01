@@ -11,9 +11,9 @@
       }
       public function post() {
         print_r($_POST);
-	$car = new carModel;
-	$car->setMake($_POST['make']);
-	$car->setModel($_POST['model']);
+	$car = new userModel;
+	$car->setUsername($_POST['username']);
+	$car->setPassword($_POST['password']);
 	$car->save();
 	header('Location: index.php');
       }

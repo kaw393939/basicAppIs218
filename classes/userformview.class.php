@@ -5,7 +5,8 @@
      public function getHTML() {
 
        $form = '
-           <form action="index.php?controller=carController" method="post">
+           <h1>User Login Form</h1>
+           <form action="index.php?controller=userController" method="post">
              <div>
 	         <label for="user">User:</label>
 	         <input type="text" id="user" name="user" />

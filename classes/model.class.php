@@ -1,5 +1,5 @@
 <?php
-
+//put your database connection in this class
   abstract class model {
     private $guid;  
     public function __construct() {
